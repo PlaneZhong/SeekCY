@@ -147,4 +147,10 @@ public class WindowRoot : MonoBehaviour {
     }
     #endregion
 
+    protected void PlayBGMusic(string bgName, bool isLoop = true) {
+        audioSvc.PlayBGMusic(bgName, isLoop);
+    }
+    protected void PlayUIAudio(string uiAudio = Constants.UIClickBtn) {
+        audioSvc.PlayUIAudio(uiAudio);
+    }
 }

@@ -9,5 +9,34 @@
 using UnityEngine;
 
 public class HotelWnd : WindowRoot {
+    protected override void InitWnd() {
+        base.InitWnd();
 
+        RefreshUI();
+    }
+
+    private void RefreshUI() {
+
+    }
+
+
+    public void ClickRoom201Btn() {
+        PlayUIAudio();
+    }
+
+    public void ClickRoom202Btn() {
+        PlayUIAudio();
+
+    }
+
+
+    public void ClickRoom203Btn() {
+        PlayUIAudio();
+
+    }
+
+    public void ClickRoom204Btn() {
+        PlayUIAudio();
+
+    }
 }

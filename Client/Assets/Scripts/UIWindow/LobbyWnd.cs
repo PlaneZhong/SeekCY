@@ -22,20 +22,27 @@ public class LobbyWnd : WindowRoot {
     }
 
     public void ClickLeftDoorBtn() {
+        PlayUIAudio(Constants.UIOpenPage);
+
         root.OpenHotelWnd();
         SetWndState(false);
     }
 
     public void ClickRightDoorBtn() {
+        PlayUIAudio(Constants.UIOpenPage);
+
         //TODO
         SetWndState(false);
     }
 
     public void ClickRegInfoBtn() {
+        PlayUIAudio();
         SetActive(transRegInfo);
     }
 
     public void ClickCloseBtn() {
+        PlayUIAudio();
+
         SetActive(transRegInfo, false);
     }
 }

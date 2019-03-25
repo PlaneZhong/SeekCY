@@ -41,9 +41,6 @@ public class GameRoot : WindowRoot {
         AudioSvc audio = GetComponent<AudioSvc>();
         audio.InitSvc();
 
-        //业务
-
-
         //打开登录界面
         loginWnd.SetWndState();
     }

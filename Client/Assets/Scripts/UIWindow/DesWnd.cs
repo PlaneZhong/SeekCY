@@ -47,6 +47,8 @@ public class DesWnd : WindowRoot {
     }
 
     public void ClickStartBtn() {
+        PlayUIAudio(Constants.UIOpenPage);
+
         root.OpenLobbyWnd();
         SetWndState(false);
     }

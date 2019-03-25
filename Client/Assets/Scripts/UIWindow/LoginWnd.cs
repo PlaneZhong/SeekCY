@@ -12,19 +12,29 @@ public class LoginWnd : WindowRoot {
 
     protected override void InitWnd() {
         base.InitWnd();
+
+        PlayBGMusic(Constants.MainBG);
     }
 
     public void ClickBtnNew() {
+        PlayUIAudio();
+
         root.OpenDesWnd();
         SetWndState(false);
     }
 
     public void ClickChaptersBtn() {
+        PlayUIAudio();
+
     }
 
     public void ClickBtnOptions() {
+        PlayUIAudio();
+
     }
 
     public void ClickBtnQuit() {
+        PlayUIAudio();
+
     }
 }
