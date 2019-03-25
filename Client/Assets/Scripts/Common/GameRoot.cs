@@ -51,4 +51,12 @@ public class GameRoot : WindowRoot {
     public void OpenDesWnd() {
         desWnd.SetWndState();
     }
+
+    public void OpenLobbyWnd() {
+        lobbyWnd.SetWndState();
+    }
+
+    public void OpenHotelWnd() {
+        hotelWnd.SetWndState();
+    }
 }

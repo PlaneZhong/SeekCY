@@ -12,6 +12,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class WindowRoot : MonoBehaviour {
+    protected GameRoot root;
     protected ResSvc resSvc;
     protected TimerSvc timerSvc;
     protected AudioSvc audioSvc;
@@ -28,11 +29,13 @@ public class WindowRoot : MonoBehaviour {
         }
     }
     protected virtual void InitWnd() {
+        root = GameRoot.Instance;
         resSvc = ResSvc.Instance;
         timerSvc = TimerSvc.Instance;
         audioSvc = AudioSvc.Instance;
     }
     protected virtual void ClearWnd() {
+        root = null;
         resSvc = null;
         timerSvc = null;
         audioSvc = null;

@@ -9,8 +9,13 @@
 using UnityEngine;
 
 public class LoginWnd : WindowRoot {
+
+    protected override void InitWnd() {
+        base.InitWnd();
+    }
+
     public void ClickBtnNew() {
-        GameRoot.Instance.OpenDesWnd();
+        root.OpenDesWnd();
         SetWndState(false);
     }
 
