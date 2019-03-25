@@ -19,10 +19,7 @@ public class ResSvc : MonoBehaviour {
         Instance = this;
     }
 
-
     #region ///=== Data Area        ===///
-    private List<string> loadTipsLst = new List<string>();
-
     private Dictionary<string, GameObject> goDic = new Dictionary<string, GameObject>();
     private Dictionary<string, Sprite> spDic = new Dictionary<string, Sprite>();
     private Dictionary<string, AudioClip> adDic = new Dictionary<string, AudioClip>();

@@ -9,5 +9,17 @@
 using UnityEngine;
 
 public class LoginWnd : WindowRoot {
+    public void ClickBtnNew() {
+        GameRoot.Instance.OpenDesWnd();
+        SetWndState(false);
+    }
 
+    public void ClickChaptersBtn() {
+    }
+
+    public void ClickBtnOptions() {
+    }
+
+    public void ClickBtnQuit() {
+    }
 }

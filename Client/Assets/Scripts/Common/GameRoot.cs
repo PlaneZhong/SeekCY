@@ -47,4 +47,8 @@ public class GameRoot : WindowRoot {
         //打开登录界面
         loginWnd.SetWndState();
     }
+
+    public void OpenDesWnd() {
+        desWnd.SetWndState();
+    }
 }
