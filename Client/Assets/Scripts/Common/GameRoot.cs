@@ -9,6 +9,7 @@
 using UnityEngine;
 
 public class GameRoot : WindowRoot {
+    public DynamicWnd dynamicWnd;
     public LoginWnd loginWnd;
     public DesWnd desWnd;
     public LobbyWnd lobbyWnd;
@@ -41,6 +42,7 @@ public class GameRoot : WindowRoot {
         AudioSvc audio = GetComponent<AudioSvc>();
         audio.InitSvc();
 
+        dynamicWnd.SetWndState();
         //打开登录界面
         loginWnd.SetWndState();
     }
@@ -55,5 +57,9 @@ public class GameRoot : WindowRoot {
 
     public void OpenHotelWnd() {
         hotelWnd.SetWndState();
+    }
+
+    public void AddTips(string tips) {
+        dynamicWnd.AddTips(tips);
     }
 }

@@ -16,7 +16,6 @@ public class DynamicWnd : WindowRoot {
     #region ///=== UI    Define     ===///
     public Text txtTips;
     public Animation tipsAni;
-    public Transform hpItemRoot;
     #endregion
 
     #region ///=== Data  Area       ===///

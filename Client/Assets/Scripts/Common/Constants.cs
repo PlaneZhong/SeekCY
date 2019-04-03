@@ -7,7 +7,9 @@
 *****************************************************/
 
 public class Constants {
-    public const string UIClickBtn = "uiClickBtn";
+    public const string UIClickBtn = "uiClick";
     public const string UIOpenPage = "uiOpenPage";
-    public const string MainBG = "bgHuangYe";
+    public const string MainBG = "bgmLogin";
+    public const string HotelBG = "bgmHotel";
+
 }

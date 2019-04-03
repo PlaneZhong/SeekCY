@@ -35,7 +35,7 @@ public class DesWnd : WindowRoot {
         SetActive(btnTrans, false);
         timerSvc.AddTask((int tid) => {
             SetActive(btnTrans);
-        }, speedShow * len + 1000);
+        }, speedShow * len);
     }
 
     private string GetDesSplitStr(int startIndex, int count) {
@@ -47,7 +47,7 @@ public class DesWnd : WindowRoot {
     }
 
     public void ClickStartBtn() {
-        PlayUIAudio(Constants.UIOpenPage);
+        PlayUIAudio(Constants.UIClickBtn);
 
         root.OpenLobbyWnd();
         SetWndState(false);

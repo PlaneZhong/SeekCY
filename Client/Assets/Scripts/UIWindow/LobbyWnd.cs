@@ -22,17 +22,17 @@ public class LobbyWnd : WindowRoot {
     }
 
     public void ClickLeftDoorBtn() {
-        PlayUIAudio(Constants.UIOpenPage);
+        PlayUIAudio(Constants.UIClickBtn);
 
         root.OpenHotelWnd();
-        SetWndState(false);
+        //SetWndState(false);
     }
 
     public void ClickRightDoorBtn() {
-        PlayUIAudio(Constants.UIOpenPage);
-
+        PlayUIAudio(Constants.UIClickBtn);
+        root.AddTips("正在开发中...");
         //TODO
-        SetWndState(false);
+        //SetWndState(false);
     }
 
     public void ClickRegInfoBtn() {
@@ -42,7 +42,6 @@ public class LobbyWnd : WindowRoot {
 
     public void ClickCloseBtn() {
         PlayUIAudio();
-
         SetActive(transRegInfo, false);
     }
 }

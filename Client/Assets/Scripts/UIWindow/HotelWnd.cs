@@ -12,31 +12,38 @@ public class HotelWnd : WindowRoot {
     protected override void InitWnd() {
         base.InitWnd();
 
+        PlayBGMusic(Constants.HotelBG);
         RefreshUI();
     }
 
     private void RefreshUI() {
-
     }
 
 
     public void ClickRoom201Btn() {
         PlayUIAudio();
+        root.AddTips("正在开发中...");
     }
 
     public void ClickRoom202Btn() {
         PlayUIAudio();
-
+        root.AddTips("正在开发中...");
     }
 
 
     public void ClickRoom203Btn() {
         PlayUIAudio();
-
+        root.AddTips("正在开发中...");
     }
 
     public void ClickRoom204Btn() {
         PlayUIAudio();
+        root.AddTips("正在开发中...");
+    }
 
+    public void ClickQuitBtn() {
+        PlayUIAudio();
+        PlayBGMusic(Constants.MainBG);
+        SetWndState(false);
     }
 }

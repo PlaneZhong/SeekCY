@@ -25,16 +25,16 @@ public class LoginWnd : WindowRoot {
 
     public void ClickChaptersBtn() {
         PlayUIAudio();
-
+        root.AddTips("正在开发中...");
     }
 
     public void ClickBtnOptions() {
         PlayUIAudio();
-
+        root.AddTips("正在开发中...");
     }
 
     public void ClickBtnQuit() {
         PlayUIAudio();
-
+        root.AddTips("正在开发中...");
     }
 }
