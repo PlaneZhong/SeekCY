@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: 476972d9c62531a4fa37a0727342e14b
+timeCreated: 1552531931
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: yue2_0
+    21300002: yue2_1
+    21300004: yue2_2
+    21300006: yue2_3
+    21300008: yue2_4
+    21300010: yue2_5
+    21300012: yue2_6
+    21300014: yue2_7
+    21300016: yue2_8
+    21300018: yue2_9
+    21300020: yue2_10
+    21300022: yue2_11
+    21300024: yue2_12
+    21300026: yue2_13
+    21300028: yue2_14
+    21300030: yue2_15
+    21300032: yue2_16
+    21300034: yue2_17
+    21300036: yue2_18
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yue2_1
+      rect:
+        serializedVersion: 2
+        x: 1297.8749
+        y: 1856.6055
+        width: 499.21875
+        height: 563.39844
+      alignment: 9
+      pivot: {x: 0.492019, y: 0.50034666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_2
+      rect:
+        serializedVersion: 2
+        x: 2274.918
+        y: 1824.7461
+        width: 125.03906
+        height: 606.9922
+      alignment: 9
+      pivot: {x: 0.4965011, y: 0.49877724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_3
+      rect:
+        serializedVersion: 2
+        x: 1909.2694
+        y: 2119.832
+        width: 234.02356
+        height: 276.40625
+      alignment: 9
+      pivot: {x: 0.5137537, y: 0.4998728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_9
+      rect:
+        serializedVersion: 2
+        x: 1812.4485
+        y: 1524.4728
+        width: 298.20312
+        height: 231.60156
+      alignment: 9
+      pivot: {x: 0.518276, y: 0.49666047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_11
+      rect:
+        serializedVersion: 2
+        x: 368.98914
+        y: 33.701366
+        width: 278.82812
+        height: 1098.6328
+      alignment: 9
+      pivot: {x: 0.48958775, y: 0.48268962}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_12
+      rect:
+        serializedVersion: 2
+        x: 1309.6628
+        y: 407.98038
+        width: 428.98438
+        height: 797.1094
+      alignment: 9
+      pivot: {x: 0.49847305, y: 0.49744692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_13
+      rect:
+        serializedVersion: 2
+        x: 1921.2146
+        y: 439.82413
+        width: 206.17188
+        height: 732.9297
+      alignment: 9
+      pivot: {x: 0.50096744, y: 0.49960572}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_14
+      rect:
+        serializedVersion: 2
+        x: 2246.8906
+        y: 377.10547
+        width: 181.95312
+        height: 794.6875
+      alignment: 9
+      pivot: {x: 0.49523398, y: 0.50006396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_15
+      rect:
+        serializedVersion: 2
+        x: 28.65067
+        y: 67.29505
+        width: 261.875
+        height: 1035.6641
+      alignment: 9
+      pivot: {x: 0.49966332, y: 0.50084287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_16
+      rect:
+        serializedVersion: 2
+        x: 791.75385
+        y: 555.88666
+        width: 352.69537
+        height: 542.81256
+      alignment: 9
+      pivot: {x: 0.5110534, y: 0.5068293}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: yue2_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 425
+        width: 10
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 101747670984726
+  assetBundleName: 
+  assetBundleVariant: 
