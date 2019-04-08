@@ -17,9 +17,13 @@ public class GameRoot : WindowRoot {
 
     public static GameRoot Instance;
 
+    public GameObject Player;
+    public Animator ani;
+
     private void Start() {
         Debug.Log("Game Start...");
         Instance = this;
+        Screen.SetResolution(1440, 900, false);
         DontDestroyOnLoad(this);
 
         InitRoot();
@@ -41,6 +45,8 @@ public class GameRoot : WindowRoot {
         res.InitSvc();
         AudioSvc audio = GetComponent<AudioSvc>();
         audio.InitSvc();
+        NavSys nav = GetComponent<NavSys>();
+        nav.InitSvc();
 
         dynamicWnd.SetWndState();
         //打开登录界面
@@ -61,5 +67,9 @@ public class GameRoot : WindowRoot {
 
     public void AddTips(string tips) {
         dynamicWnd.AddTips(tips);
+    }
+
+    public void SetLobbyTempPos() {
+        lobbyWnd.SetToTempPos();
     }
 }

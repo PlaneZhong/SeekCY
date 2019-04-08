@@ -7,6 +7,8 @@
 *****************************************************/
 
 public class Constants {
+    public const string CharacterPrefab = "ResNPC/Player/Yueya";
+
     public const string UIClickBtn = "uiClick";
     public const string UIOpenPage = "uiOpenPage";
     public const string MainBG = "bgmLogin";
